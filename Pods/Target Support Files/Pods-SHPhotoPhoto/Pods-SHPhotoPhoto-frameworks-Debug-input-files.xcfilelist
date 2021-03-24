@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KeychainAccess-framework/KeychainAccess.framework
+${PODS_ROOT}/LookinServer/LookinServer.framework
+${BUILT_PRODUCTS_DIR}/PryntTrimmerView-framework/PryntTrimmerView.framework
+${BUILT_PRODUCTS_DIR}/SteviaLayout-framework/Stevia.framework
+${BUILT_PRODUCTS_DIR}/YPImagePicker-framework/YPImagePicker.framework

@@ -3,18 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9795D4A702382BC80FAE8436 /* Pods_SHPhotoPhotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1F73FD25FE90D2BD3F2769 /* Pods_SHPhotoPhotoTests.framework */; };
+		BF9CA51FE711678BB7292402 /* Pods_SHPhotoPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228881FE254FB6F04089A0BB /* Pods_SHPhotoPhoto.framework */; };
+		C067486FE7EE1D36BB1CE714 /* Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F465AE44AC8EDB02DC4E2E /* Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework */; };
 		DA8419062609F0D600FB335E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8419052609F0D600FB335E /* AppDelegate.swift */; };
-		DA8419082609F0D600FB335E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8419072609F0D600FB335E /* SceneDelegate.swift */; };
 		DA84190A2609F0D600FB335E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8419092609F0D600FB335E /* ViewController.swift */; };
 		DA84190D2609F0D600FB335E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA84190B2609F0D600FB335E /* Main.storyboard */; };
 		DA84190F2609F0D800FB335E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA84190E2609F0D800FB335E /* Assets.xcassets */; };
 		DA8419122609F0D800FB335E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8419102609F0D800FB335E /* LaunchScreen.storyboard */; };
 		DA84191D2609F0D800FB335E /* SHPhotoPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA84191C2609F0D800FB335E /* SHPhotoPhotoTests.swift */; };
 		DA8419282609F0D800FB335E /* SHPhotoPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8419272609F0D800FB335E /* SHPhotoPhotoUITests.swift */; };
+		DAC440A0260B0CC40012C289 /* SHLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC4409F260B0CC40012C289 /* SHLoginVC.swift */; };
+		DAC440AA260B0E060012C289 /* SHUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440A9260B0E060012C289 /* SHUserDefaults.swift */; };
+		DAC440BA260B0F900012C289 /* SHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440B9260B0F900012C289 /* SHConfig.swift */; };
+		DAC440BF260B10B60012C289 /* SHKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440BE260B10B60012C289 /* SHKeychain.swift */; };
+		DAC440C4260B13FA0012C289 /* SHUserConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440C3260B13FA0012C289 /* SHUserConfig.swift */; };
+		DAC440CC260B18D40012C289 /* SHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440CB260B18D40012C289 /* SHToast.swift */; };
+		DAC440D1260B1DD10012C289 /* UIView+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440D0260B1DD10012C289 /* UIView+Size.swift */; };
+		DAC442A9260B2F820012C289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC442A8260B2F820012C289 /* AppDelegate.swift */; };
+		DAC442AB260B2F820012C289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC442AA260B2F820012C289 /* SceneDelegate.swift */; };
+		DAC442AD260B2F820012C289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC442AC260B2F820012C289 /* ViewController.swift */; };
+		DAC442B0260B2F820012C289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC442AE260B2F820012C289 /* Main.storyboard */; };
+		DAC442B5260B2F830012C289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC442B3260B2F830012C289 /* LaunchScreen.storyboard */; };
+		DAC442BA260B2F830012C289 /* SHPhotoPhotoClips.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = DAC442A6260B2F820012C289 /* SHPhotoPhotoClips.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAC442CA260B2FD40012C289 /* SHLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC4409F260B0CC40012C289 /* SHLoginVC.swift */; };
+		DAC442CF260B2FD60012C289 /* UIView+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440D0260B1DD10012C289 /* UIView+Size.swift */; };
+		DAC442D4260B2FD80012C289 /* SHToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440CB260B18D40012C289 /* SHToast.swift */; };
+		DAC442D9260B2FD90012C289 /* SHUserConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440C3260B13FA0012C289 /* SHUserConfig.swift */; };
+		DAC442DE260B2FDC0012C289 /* SHKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440BE260B10B60012C289 /* SHKeychain.swift */; };
+		DAC442E3260B2FDF0012C289 /* SHUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440A9260B0E060012C289 /* SHUserDefaults.swift */; };
+		DAC442E8260B2FEB0012C289 /* SHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC440B9260B0F900012C289 /* SHConfig.swift */; };
+		DAC4433C260B3EB60012C289 /* SHHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC4433B260B3EB60012C289 /* SHHomeVC.swift */; };
+		DAC44341260B3EE50012C289 /* SHHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC4433B260B3EB60012C289 /* SHHomeVC.swift */; };
+		DAC44346260B40100012C289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA84190E2609F0D800FB335E /* Assets.xcassets */; };
+		FD89C5CD27C065D0BFFA4BE0 /* libPods-SHPhotoPhotoClips.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E8B6F9EF6B3037744F37B8 /* libPods-SHPhotoPhotoClips.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +58,44 @@
 			remoteGlobalIDString = DA8419012609F0D600FB335E;
 			remoteInfo = SHPhotoPhoto;
 		};
+		DAC442B8260B2F830012C289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8418FA2609F0D600FB335E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC442A5260B2F820012C289;
+			remoteInfo = SHPhotoPhotoClips;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DAC44107260B200C0012C289 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				DAC442BA260B2F830012C289 /* SHPhotoPhotoClips.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03F465AE44AC8EDB02DC4E2E /* Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0457D8CBB471049D20BA772F /* Pods-SHPhotoPhotoClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhotoClips.debug.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips.debug.xcconfig"; sourceTree = "<group>"; };
+		07E047CB332B3893B668477B /* Pods-SHPhotoPhotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhotoTests.debug.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhotoTests/Pods-SHPhotoPhotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		228881FE254FB6F04089A0BB /* Pods_SHPhotoPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHPhotoPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C633C3D54964CAEA1430B91 /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhoto-SHPhotoPhotoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1F73FD25FE90D2BD3F2769 /* Pods_SHPhotoPhotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHPhotoPhotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF33ABC0450C35822C29EB /* Pods-SHPhotoPhotoClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhotoClips.release.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips.release.xcconfig"; sourceTree = "<group>"; };
+		3D513DFB8F819F251AF4E2C7 /* Pods-SHPhotoPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhoto.debug.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		83547301EDF024F9B36B285A /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhoto-SHPhotoPhotoUITests.release.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84E8B6F9EF6B3037744F37B8 /* libPods-SHPhotoPhotoClips.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHPhotoPhotoClips.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A31B8792474ACB459449E04 /* Pods-SHPhotoPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhoto.release.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		D8D7604935B840D4CDEBA84C /* Pods-SHPhotoPhotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHPhotoPhotoTests.release.xcconfig"; path = "Target Support Files/Pods-SHPhotoPhotoTests/Pods-SHPhotoPhotoTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA8419022609F0D600FB335E /* SHPhotoPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHPhotoPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8419052609F0D600FB335E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA8419072609F0D600FB335E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA8419092609F0D600FB335E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA84190C2609F0D600FB335E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA84190E2609F0D800FB335E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +107,22 @@
 		DA8419232609F0D800FB335E /* SHPhotoPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHPhotoPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8419272609F0D800FB335E /* SHPhotoPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHPhotoPhotoUITests.swift; sourceTree = "<group>"; };
 		DA8419292609F0D800FB335E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC4409F260B0CC40012C289 /* SHLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHLoginVC.swift; sourceTree = "<group>"; };
+		DAC440A9260B0E060012C289 /* SHUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHUserDefaults.swift; sourceTree = "<group>"; };
+		DAC440B9260B0F900012C289 /* SHConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHConfig.swift; sourceTree = "<group>"; };
+		DAC440BE260B10B60012C289 /* SHKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHKeychain.swift; sourceTree = "<group>"; };
+		DAC440C3260B13FA0012C289 /* SHUserConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHUserConfig.swift; sourceTree = "<group>"; };
+		DAC440CB260B18D40012C289 /* SHToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHToast.swift; sourceTree = "<group>"; };
+		DAC440D0260B1DD10012C289 /* UIView+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Size.swift"; sourceTree = "<group>"; };
+		DAC442A6260B2F820012C289 /* SHPhotoPhotoClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHPhotoPhotoClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC442A8260B2F820012C289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC442AA260B2F820012C289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAC442AC260B2F820012C289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC442AF260B2F820012C289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC442B4260B2F830012C289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC442B6260B2F830012C289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC442B7260B2F830012C289 /* SHPhotoPhotoClips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SHPhotoPhotoClips.entitlements; sourceTree = "<group>"; };
+		DAC4433B260B3EB60012C289 /* SHHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHHomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9CA51FE711678BB7292402 /* Pods_SHPhotoPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9795D4A702382BC80FAE8436 /* Pods_SHPhotoPhotoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +146,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C067486FE7EE1D36BB1CE714 /* Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC442A3260B2F820012C289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD89C5CD27C065D0BFFA4BE0 /* libPods-SHPhotoPhotoClips.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122226A9AFE6D190200C95BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228881FE254FB6F04089A0BB /* Pods_SHPhotoPhoto.framework */,
+				03F465AE44AC8EDB02DC4E2E /* Pods_SHPhotoPhoto_SHPhotoPhotoUITests.framework */,
+				2D1F73FD25FE90D2BD3F2769 /* Pods_SHPhotoPhotoTests.framework */,
+				84E8B6F9EF6B3037744F37B8 /* libPods-SHPhotoPhotoClips.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37FC5211996DEDBAA1C075D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D513DFB8F819F251AF4E2C7 /* Pods-SHPhotoPhoto.debug.xcconfig */,
+				8A31B8792474ACB459449E04 /* Pods-SHPhotoPhoto.release.xcconfig */,
+				2C633C3D54964CAEA1430B91 /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.debug.xcconfig */,
+				83547301EDF024F9B36B285A /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.release.xcconfig */,
+				07E047CB332B3893B668477B /* Pods-SHPhotoPhotoTests.debug.xcconfig */,
+				D8D7604935B840D4CDEBA84C /* Pods-SHPhotoPhotoTests.release.xcconfig */,
+				0457D8CBB471049D20BA772F /* Pods-SHPhotoPhotoClips.debug.xcconfig */,
+				39BF33ABC0450C35822C29EB /* Pods-SHPhotoPhotoClips.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA8418F92609F0D600FB335E = {
 			isa = PBXGroup;
 			children = (
 				DA8419042609F0D600FB335E /* SHPhotoPhoto */,
 				DA84191B2609F0D800FB335E /* SHPhotoPhotoTests */,
 				DA8419262609F0D800FB335E /* SHPhotoPhotoUITests */,
+				DAC442A7260B2F820012C289 /* SHPhotoPhotoClips */,
 				DA8419032609F0D600FB335E /* Products */,
+				D37FC5211996DEDBAA1C075D /* Pods */,
+				122226A9AFE6D190200C95BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +206,7 @@
 				DA8419022609F0D600FB335E /* SHPhotoPhoto.app */,
 				DA8419182609F0D800FB335E /* SHPhotoPhotoTests.xctest */,
 				DA8419232609F0D800FB335E /* SHPhotoPhotoUITests.xctest */,
+				DAC442A6260B2F820012C289 /* SHPhotoPhotoClips.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +214,16 @@
 		DA8419042609F0D600FB335E /* SHPhotoPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				DAC440A4260B0D130012C289 /* SHTool */,
+				DAC440A5260B0D210012C289 /* SHMain */,
+				DAC4409E260B0CB60012C289 /* SHLogin */,
 				DA8419052609F0D600FB335E /* AppDelegate.swift */,
-				DA8419072609F0D600FB335E /* SceneDelegate.swift */,
 				DA8419092609F0D600FB335E /* ViewController.swift */,
 				DA84190B2609F0D600FB335E /* Main.storyboard */,
 				DA84190E2609F0D800FB335E /* Assets.xcassets */,
 				DA8419102609F0D800FB335E /* LaunchScreen.storyboard */,
 				DA8419132609F0D800FB335E /* Info.plist */,
+				DAC440B9260B0F900012C289 /* SHConfig.swift */,
 			);
 			path = SHPhotoPhoto;
 			sourceTree = "<group>";
@@ -128,6 +246,48 @@
 			path = SHPhotoPhotoUITests;
 			sourceTree = "<group>";
 		};
+		DAC4409E260B0CB60012C289 /* SHLogin */ = {
+			isa = PBXGroup;
+			children = (
+				DAC4409F260B0CC40012C289 /* SHLoginVC.swift */,
+			);
+			path = SHLogin;
+			sourceTree = "<group>";
+		};
+		DAC440A4260B0D130012C289 /* SHTool */ = {
+			isa = PBXGroup;
+			children = (
+				DAC440A9260B0E060012C289 /* SHUserDefaults.swift */,
+				DAC440BE260B10B60012C289 /* SHKeychain.swift */,
+				DAC440C3260B13FA0012C289 /* SHUserConfig.swift */,
+				DAC440CB260B18D40012C289 /* SHToast.swift */,
+				DAC440D0260B1DD10012C289 /* UIView+Size.swift */,
+			);
+			path = SHTool;
+			sourceTree = "<group>";
+		};
+		DAC440A5260B0D210012C289 /* SHMain */ = {
+			isa = PBXGroup;
+			children = (
+				DAC4433B260B3EB60012C289 /* SHHomeVC.swift */,
+			);
+			path = SHMain;
+			sourceTree = "<group>";
+		};
+		DAC442A7260B2F820012C289 /* SHPhotoPhotoClips */ = {
+			isa = PBXGroup;
+			children = (
+				DAC442A8260B2F820012C289 /* AppDelegate.swift */,
+				DAC442AA260B2F820012C289 /* SceneDelegate.swift */,
+				DAC442AC260B2F820012C289 /* ViewController.swift */,
+				DAC442AE260B2F820012C289 /* Main.storyboard */,
+				DAC442B3260B2F830012C289 /* LaunchScreen.storyboard */,
+				DAC442B6260B2F830012C289 /* Info.plist */,
+				DAC442B7260B2F830012C289 /* SHPhotoPhotoClips.entitlements */,
+			);
+			path = SHPhotoPhotoClips;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,13 +295,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA84192C2609F0D800FB335E /* Build configuration list for PBXNativeTarget "SHPhotoPhoto" */;
 			buildPhases = (
+				E3210469A6C881C781FADC90 /* [CP] Check Pods Manifest.lock */,
 				DA8418FE2609F0D600FB335E /* Sources */,
 				DA8418FF2609F0D600FB335E /* Frameworks */,
 				DA8419002609F0D600FB335E /* Resources */,
+				DAC44107260B200C0012C289 /* Embed App Clips */,
+				30074EC3379D3296D31F81C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DAC442B9260B2F830012C289 /* PBXTargetDependency */,
 			);
 			name = SHPhotoPhoto;
 			productName = SHPhotoPhoto;
@@ -152,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA84192F2609F0D800FB335E /* Build configuration list for PBXNativeTarget "SHPhotoPhotoTests" */;
 			buildPhases = (
+				4C6A104A6DD434339E86BF71 /* [CP] Check Pods Manifest.lock */,
 				DA8419142609F0D800FB335E /* Sources */,
 				DA8419152609F0D800FB335E /* Frameworks */,
 				DA8419162609F0D800FB335E /* Resources */,
@@ -170,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA8419322609F0D800FB335E /* Build configuration list for PBXNativeTarget "SHPhotoPhotoUITests" */;
 			buildPhases = (
+				63A3A4B353104E5E4B381945 /* [CP] Check Pods Manifest.lock */,
 				DA84191F2609F0D800FB335E /* Sources */,
 				DA8419202609F0D800FB335E /* Frameworks */,
 				DA8419212609F0D800FB335E /* Resources */,
+				C4B12133EF5476EE1FA98043 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +350,26 @@
 			productName = SHPhotoPhotoUITests;
 			productReference = DA8419232609F0D800FB335E /* SHPhotoPhotoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DAC442A5260B2F820012C289 /* SHPhotoPhotoClips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC442BB260B2F830012C289 /* Build configuration list for PBXNativeTarget "SHPhotoPhotoClips" */;
+			buildPhases = (
+				9D7B198F4126650578C7982F /* [CP] Check Pods Manifest.lock */,
+				DAC442A2260B2F820012C289 /* Sources */,
+				DAC442A3260B2F820012C289 /* Frameworks */,
+				DAC442A4260B2F820012C289 /* Resources */,
+				82A2724C7F6D0A83ADD9F2A7 /* [CP] Copy Pods Resources */,
+				0EAF7D7A7D93643754BAE492 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHPhotoPhotoClips;
+			productName = SHPhotoPhotoClips;
+			productReference = DAC442A6260B2F820012C289 /* SHPhotoPhotoClips.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,6 +391,9 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = DA8419012609F0D600FB335E;
 					};
+					DAC442A5260B2F820012C289 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = DA8418FD2609F0D600FB335E /* Build configuration list for PBXProject "SHPhotoPhoto" */;
@@ -222,6 +412,7 @@
 				DA8419012609F0D600FB335E /* SHPhotoPhoto */,
 				DA8419172609F0D800FB335E /* SHPhotoPhotoTests */,
 				DA8419222609F0D800FB335E /* SHPhotoPhotoUITests */,
+				DAC442A5260B2F820012C289 /* SHPhotoPhotoClips */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +442,176 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAC442A4260B2F820012C289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC442B5260B2F830012C289 /* LaunchScreen.storyboard in Resources */,
+				DAC44346260B40100012C289 /* Assets.xcassets in Resources */,
+				DAC442B0260B2F820012C289 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EAF7D7A7D93643754BAE492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30074EC3379D3296D31F81C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto/Pods-SHPhotoPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C6A104A6DD434339E86BF71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHPhotoPhotoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A3A4B353104E5E4B381945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHPhotoPhoto-SHPhotoPhotoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A2724C7F6D0A83ADD9F2A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhotoClips/Pods-SHPhotoPhotoClips-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7B198F4126650578C7982F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHPhotoPhotoClips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B12133EF5476EE1FA98043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3210469A6C881C781FADC90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHPhotoPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA8418FE2609F0D600FB335E /* Sources */ = {
@@ -259,8 +619,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA84190A2609F0D600FB335E /* ViewController.swift in Sources */,
+				DAC440AA260B0E060012C289 /* SHUserDefaults.swift in Sources */,
+				DAC440C4260B13FA0012C289 /* SHUserConfig.swift in Sources */,
+				DAC440BA260B0F900012C289 /* SHConfig.swift in Sources */,
+				DAC4433C260B3EB60012C289 /* SHHomeVC.swift in Sources */,
 				DA8419062609F0D600FB335E /* AppDelegate.swift in Sources */,
-				DA8419082609F0D600FB335E /* SceneDelegate.swift in Sources */,
+				DAC440D1260B1DD10012C289 /* UIView+Size.swift in Sources */,
+				DAC440BF260B10B60012C289 /* SHKeychain.swift in Sources */,
+				DAC440CC260B18D40012C289 /* SHToast.swift in Sources */,
+				DAC440A0260B0CC40012C289 /* SHLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +647,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAC442A2260B2F820012C289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC442D4260B2FD80012C289 /* SHToast.swift in Sources */,
+				DAC44341260B3EE50012C289 /* SHHomeVC.swift in Sources */,
+				DAC442AD260B2F820012C289 /* ViewController.swift in Sources */,
+				DAC442E8260B2FEB0012C289 /* SHConfig.swift in Sources */,
+				DAC442DE260B2FDC0012C289 /* SHKeychain.swift in Sources */,
+				DAC442D9260B2FD90012C289 /* SHUserConfig.swift in Sources */,
+				DAC442CF260B2FD60012C289 /* UIView+Size.swift in Sources */,
+				DAC442A9260B2F820012C289 /* AppDelegate.swift in Sources */,
+				DAC442AB260B2F820012C289 /* SceneDelegate.swift in Sources */,
+				DAC442CA260B2FD40012C289 /* SHLoginVC.swift in Sources */,
+				DAC442E3260B2FDF0012C289 /* SHUserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +677,11 @@
 			isa = PBXTargetDependency;
 			target = DA8419012609F0D600FB335E /* SHPhotoPhoto */;
 			targetProxy = DA8419242609F0D800FB335E /* PBXContainerItemProxy */;
+		};
+		DAC442B9260B2F830012C289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC442A5260B2F820012C289 /* SHPhotoPhotoClips */;
+			targetProxy = DAC442B8260B2F830012C289 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -308,6 +698,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				DA8419112609F0D800FB335E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC442AE260B2F820012C289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC442AF260B2F820012C289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC442B3260B2F830012C289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC442B4260B2F830012C289 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -433,18 +839,23 @@
 		};
 		DA84192D2609F0D800FB335E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D513DFB8F819F251AF4E2C7 /* Pods-SHPhotoPhoto.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4HS76TFBWX;
 				INFOPLIST_FILE = SHPhotoPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Huolala-oc.com.SHPhotoPhoto";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.SHPhotoPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PhotoPhotoDev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,18 +863,23 @@
 		};
 		DA84192E2609F0D800FB335E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A31B8792474ACB459449E04 /* Pods-SHPhotoPhoto.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4HS76TFBWX;
 				INFOPLIST_FILE = SHPhotoPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Huolala-oc.com.SHPhotoPhoto";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.SHPhotoPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PhotoPhoto_Provisioning_appStore;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +887,7 @@
 		};
 		DA8419302609F0D800FB335E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E047CB332B3893B668477B /* Pods-SHPhotoPhotoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +910,7 @@
 		};
 		DA8419312609F0D800FB335E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D7604935B840D4CDEBA84C /* Pods-SHPhotoPhotoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +933,7 @@
 		};
 		DA8419332609F0D800FB335E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C633C3D54964CAEA1430B91 /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +954,7 @@
 		};
 		DA8419342609F0D800FB335E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83547301EDF024F9B36B285A /* Pods-SHPhotoPhoto-SHPhotoPhotoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +970,52 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SHPhotoPhoto;
+			};
+			name = Release;
+		};
+		DAC442BC260B2F830012C289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0457D8CBB471049D20BA772F /* Pods-SHPhotoPhotoClips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SHPhotoPhotoClips/SHPhotoPhotoClips.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HS76TFBWX;
+				INFOPLIST_FILE = SHPhotoPhotoClips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.SHPhotoPhoto.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC442BD260B2F830012C289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BF33ABC0450C35822C29EB /* Pods-SHPhotoPhotoClips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SHPhotoPhotoClips/SHPhotoPhotoClips.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HS76TFBWX;
+				INFOPLIST_FILE = SHPhotoPhotoClips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shark.SHPhotoPhoto.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -588,6 +1054,15 @@
 			buildConfigurations = (
 				DA8419332609F0D800FB335E /* Debug */,
 				DA8419342609F0D800FB335E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC442BB260B2F830012C289 /* Build configuration list for PBXNativeTarget "SHPhotoPhotoClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC442BC260B2F830012C289 /* Debug */,
+				DAC442BD260B2F830012C289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-SHPhotoPhoto-SHPhotoPhotoUITests/Pods-SHPhotoPhoto-SHPhotoPhotoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KeychainAccess-framework/KeychainAccess.framework
+${BUILT_PRODUCTS_DIR}/PryntTrimmerView-framework/PryntTrimmerView.framework
+${BUILT_PRODUCTS_DIR}/SteviaLayout-framework/Stevia.framework
+${BUILT_PRODUCTS_DIR}/YPImagePicker-framework/YPImagePicker.framework

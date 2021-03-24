@@ -1,0 +1,6 @@
+framework module PryntTrimmerView {
+  umbrella header "PryntTrimmerView-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

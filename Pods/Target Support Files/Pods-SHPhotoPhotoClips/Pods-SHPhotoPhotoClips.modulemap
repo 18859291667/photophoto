@@ -1,0 +1,6 @@
+module Pods_SHPhotoPhotoClips {
+  umbrella header "Pods-SHPhotoPhotoClips-umbrella.h"
+
+  export *
+  module * { export * }
+}

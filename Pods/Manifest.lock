@@ -1,0 +1,32 @@
+PODS:
+  - KeychainAccess (4.2.2)
+  - LookinServer (1.0.0)
+  - PryntTrimmerView (4.0.2)
+  - SteviaLayout (4.7.3)
+  - YPImagePicker (4.4.0):
+    - PryntTrimmerView (~> 4.0.2)
+    - SteviaLayout (~> 4.7.3)
+
+DEPENDENCIES:
+  - KeychainAccess
+  - LookinServer
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - KeychainAccess
+    - LookinServer
+    - PryntTrimmerView
+    - SteviaLayout
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  YPImagePicker: 15aed8bcaa4dad976e11b6114126d731a2f9f3c9
+
+PODFILE CHECKSUM: 0e241eff326f6e6cc34773a74a09e28ced1c0e93
+
+COCOAPODS: 1.10.0
